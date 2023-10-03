@@ -14,6 +14,9 @@
 		3F0B58812ACC656B00B78A43 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B58802ACC656B00B78A43 /* CalculatorTests.swift */; };
 		3F0B588B2ACC656B00B78A43 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B588A2ACC656B00B78A43 /* CalculatorUITests.swift */; };
 		3F0B588D2ACC656B00B78A43 /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B588C2ACC656B00B78A43 /* CalculatorUITestsLaunchTests.swift */; };
+		3F0B589A2ACC65AB00B78A43 /* Przycisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B58992ACC65AB00B78A43 /* Przycisk.swift */; };
+		3F0B589C2ACC66CE00B78A43 /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B589B2ACC66CE00B78A43 /* Output.swift */; };
+		3F0B589E2ACC675800B78A43 /* Oblicz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B589D2ACC675800B78A43 /* Oblicz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3F0B58862ACC656B00B78A43 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0B588A2ACC656B00B78A43 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		3F0B588C2ACC656B00B78A43 /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F0B58992ACC65AB00B78A43 /* Przycisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Przycisk.swift; sourceTree = "<group>"; };
+		3F0B589B2ACC66CE00B78A43 /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
+		3F0B589D2ACC675800B78A43 /* Oblicz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oblicz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				3F0B58712ACC656A00B78A43 /* ContentView.swift */,
 				3F0B58732ACC656B00B78A43 /* Assets.xcassets */,
 				3F0B58752ACC656B00B78A43 /* Preview Content */,
+				3F0B58992ACC65AB00B78A43 /* Przycisk.swift */,
+				3F0B589B2ACC66CE00B78A43 /* Output.swift */,
+				3F0B589D2ACC675800B78A43 /* Oblicz.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0B589C2ACC66CE00B78A43 /* Output.swift in Sources */,
+				3F0B589E2ACC675800B78A43 /* Oblicz.swift in Sources */,
 				3F0B58722ACC656A00B78A43 /* ContentView.swift in Sources */,
 				3F0B58702ACC656A00B78A43 /* CalculatorApp.swift in Sources */,
+				3F0B589A2ACC65AB00B78A43 /* Przycisk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

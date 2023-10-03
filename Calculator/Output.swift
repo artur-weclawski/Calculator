@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct Output: View {
+    @State var wynik : String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("", text: $wynik).frame(width: 315, height: 60, alignment:.center).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2)
     }
 }
 

@@ -9,10 +9,9 @@ import SwiftUI
 
 struct Oblicz: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Button("Oblicz"){
+            }.frame(width: 315, height: 60, alignment: .center).border(.black, width: 2).font(.largeTitle)
+        }
     }
-}
-
-#Preview {
-    Oblicz()
 }

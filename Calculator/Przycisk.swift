@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct Przycisk: View {
+    @Binding var znak : String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(znak){}.frame(width: 100, height: 60, alignment: .center).border(.black, width: 2).font(.largeTitle)
     }
 }
 
-#Preview {
-    Przycisk()
-}
