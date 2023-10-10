@@ -8,54 +8,43 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var _1 : String = "1"
-    @State var _2 : String = "2"
-    @State var _3 : String = "3"
-    @State var _4 : String = "4"
-    @State var _5 : String = "5"
-    @State var _6 : String = "6"
-    @State var _7 : String = "7"
-    @State var _8 : String = "8"
-    @State var _9 : String = "9"
-    @State var _0 : String = "0"
-    @State var _p : String = "+"
-    @State var _m : String = "-"
-    @State var _r : String = "*"
-    @State var _d : String = "/"
-    @State var _s : String = "sin"
+    @State var inputValue = ""
+    @State var showValue = ""
+    @State var operacja = ""
+    @State var isCalc = false
     var body: some View {
     
         VStack {
             Spacer()
             Text("KALKULATOR").font(.largeTitle)
             Spacer()
-            Output()
+            Output(wynik : $inputValue)
             HStack{
-                Przycisk(znak : $_1)
-                Przycisk(znak : $_2)
-                Przycisk(znak : $_3)
+                Przycisk(znak : "1", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "2", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "3", output : $showValue, temp: $inputValue, isClick: $isCalc)
             }
             HStack{
-                Przycisk(znak : $_4)
-                Przycisk(znak : $_5)
-                Przycisk(znak : $_6)
+                Przycisk(znak : "4", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "5", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "6", output : $showValue, temp: $inputValue, isClick: $isCalc)
             }
             HStack{
-                Przycisk(znak : $_7)
-                Przycisk(znak : $_8)
-                Przycisk(znak : $_9)
+                Przycisk(znak : "7", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "8", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "9", output : $showValue, temp: $inputValue, isClick: $isCalc)
             }
             HStack{
-                Przycisk(znak : $_0)
-                Przycisk(znak : $_p)
-                Przycisk(znak : $_m)
+                Przycisk(znak : "0", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "+", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "-", output : $showValue, temp: $inputValue, isClick: $isCalc)
             }
             HStack{
-                Przycisk(znak : $_r)
-                Przycisk(znak : $_d)
-                Przycisk(znak : $_s)
+                Przycisk(znak : "*", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "/", output : $showValue, temp: $inputValue, isClick: $isCalc)
+                Przycisk(znak : "sin", output : $showValue, temp: $inputValue, isClick: $isCalc)
             }
-            Oblicz()
+            Oblicz(output : $showValue, temp : $inputValue, isClick: $isCalc)
         }
         .padding()
     }

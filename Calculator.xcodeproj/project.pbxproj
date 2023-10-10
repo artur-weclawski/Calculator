@@ -17,6 +17,8 @@
 		3F0B589A2ACC65AB00B78A43 /* Przycisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B58992ACC65AB00B78A43 /* Przycisk.swift */; };
 		3F0B589C2ACC66CE00B78A43 /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B589B2ACC66CE00B78A43 /* Output.swift */; };
 		3F0B589E2ACC675800B78A43 /* Oblicz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B589D2ACC675800B78A43 /* Oblicz.swift */; };
+		3F70BFA32AD597BB00E552FE /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70BFA22AD597BB00E552FE /* Operations.swift */; };
+		3F70BFA52AD5A36300E552FE /* OpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70BFA42AD5A36300E552FE /* OpTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		3F0B58992ACC65AB00B78A43 /* Przycisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Przycisk.swift; sourceTree = "<group>"; };
 		3F0B589B2ACC66CE00B78A43 /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
 		3F0B589D2ACC675800B78A43 /* Oblicz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oblicz.swift; sourceTree = "<group>"; };
+		3F70BFA22AD597BB00E552FE /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		3F70BFA42AD5A36300E552FE /* OpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				3F0B58992ACC65AB00B78A43 /* Przycisk.swift */,
 				3F0B589B2ACC66CE00B78A43 /* Output.swift */,
 				3F0B589D2ACC675800B78A43 /* Oblicz.swift */,
+				3F70BFA22AD597BB00E552FE /* Operations.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 		3F0B587F2ACC656B00B78A43 /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				3F70BFA42AD5A36300E552FE /* OpTests.swift */,
 				3F0B58802ACC656B00B78A43 /* CalculatorTests.swift */,
 			);
 			path = CalculatorTests;
@@ -269,6 +275,7 @@
 				3F0B589C2ACC66CE00B78A43 /* Output.swift in Sources */,
 				3F0B589E2ACC675800B78A43 /* Oblicz.swift in Sources */,
 				3F0B58722ACC656A00B78A43 /* ContentView.swift in Sources */,
+				3F70BFA32AD597BB00E552FE /* Operations.swift in Sources */,
 				3F0B58702ACC656A00B78A43 /* CalculatorApp.swift in Sources */,
 				3F0B589A2ACC65AB00B78A43 /* Przycisk.swift in Sources */,
 			);
@@ -278,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F70BFA52AD5A36300E552FE /* OpTests.swift in Sources */,
 				3F0B58812ACC656B00B78A43 /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
